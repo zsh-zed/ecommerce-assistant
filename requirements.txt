@@ -1,0 +1,42 @@
+# ============================================================
+#  requirements.txt — Stack 2026 (LangChain 1.x)
+#
+#  O QUE MUDOU EM RELAÇÃO À VERSÃO ANTERIOR:
+#  ─────────────────────────────────────────────────────────
+#  ANTES (0.3.x):
+#    langchain==0.3.25
+#    langchain-core==0.3.65
+#    langchain-community==0.3.24
+#    + ConversationalRetrievalChain (depreciado)
+#    + ConversationBufferWindowMemory (depreciado)
+#    + create_history_aware_retriever (mudou de lugar)
+#
+#  AGORA (1.x):
+#    langchain==1.x          → nova API, create_agent, middleware
+#    langchain-core==1.x     → abstrações base estáveis
+#    langchain-community     → loaders, FAISS (separado do core)
+#    langchain[google-genai] → instala o extra oficial do Google
+#
+#  NOVA FORMA DE INICIALIZAR O LLM:
+#    init_chat_model("google_genai:gemini-2.5-flash")
+#    (ao invés de ChatGoogleGenerativeAI diretamente)
+#
+#  EMBEDDING GOOGLE CONFIRMADO:
+#    GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
+#    (text-embedding-004 foi removido)
+# ============================================================
+
+# Core — 1.x GA (lançado outubro 2025, estável em 2026)
+langchain>=1.2.0,<2.0.0
+langchain-core>=1.2.0,<2.0.0
+langchain-community>=0.3.24
+langchain-text-splitters>=0.3.8
+
+# Integração Google — instala langchain-google-genai como extra
+langchain[google-genai]>=1.2.0
+
+# Vector store local
+faiss-cpu>=1.10.0
+
+# Variáveis de ambiente
+python-dotenv>=1.0.0

@@ -1,0 +1,11 @@
+id,nome,categoria,descricao,preco,estoque,tamanhos,cores
+1,Tênis Runner Pro,Calçados,Tênis para corrida com solado em borracha e palmilha anatômica. Ideal para treinos diários e corridas de até 10km.,189.90,15,"38,39,40,41,42,43","Preto,Branco,Azul"
+2,Tênis Casual Street,Calçados,Tênis casual estilo urbano com cabedal em couro sintético. Confortável para uso no dia a dia.,149.90,20,"37,38,39,40,41,42","Branco,Preto,Cinza"
+3,Camiseta Dry Fit,Roupas,Camiseta esportiva com tecnologia dry fit que absorve o suor rapidamente. Perfeita para academia e esportes.,59.90,50,"P,M,G,GG","Preto,Branco,Azul,Vermelho"
+4,Shorts Esportivo,Roupas,Shorts leve com bolso lateral e cós ajustável. Ideal para treinos e atividades ao ar livre.,79.90,30,"P,M,G,GG","Preto,Azul,Cinza"
+5,Mochila Sport 30L,Acessórios,Mochila resistente à água com compartimento para notebook até 15 polegadas e bolso lateral para garrafa.,199.90,10,"Único","Preto,Cinza,Verde"
+6,Boné Snapback,Acessórios,Boné com aba reta e fecho ajustável snapback. Bordado frontal exclusivo.,49.90,25,"Único","Preto,Branco,Azul Marinho"
+7,Meias Esportivas Kit 3,Acessórios,Kit com 3 pares de meias cano médio com tecnologia anti-odor e compressão leve no tornozelo.,39.90,40,"35-38,39-43","Branco,Preto"
+8,Jaqueta Corta Vento,Roupas,Jaqueta leve impermeável com capuz dobrável no colarinho. Ideal para dias frios e chuvosos.,249.90,8,"P,M,G,GG","Preto,Azul,Vermelho"
+9,Tênis Trail Run,Calçados,Tênis para trilhas com solado de alta aderência e proteção extra no bico. Suporta terrenos irregulares.,229.90,12,"38,39,40,41,42,43","Laranja,Preto,Verde"
+10,Legging Feminina,Roupas,Legging de compressão com cintura alta e tecido que não transparece. Perfeita para yoga e academia.,99.90,35,"PP,P,M,G","Preto,Grafite,Roxo"
