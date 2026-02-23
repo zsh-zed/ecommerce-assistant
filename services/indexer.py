@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from config import EMBEDDING_MODEL, GOOGLE_API_KEY, VECTORSTORE_PATH
+from config import EMBEDDING_MODEL, GOOGLE_API_KEY, GROQ_API_KEY, VECTORSTORE_PATH
 
 
 def load_documents():
@@ -46,7 +46,7 @@ def split_documents(documents):
 def build_vectorstore(chunks):
 
     embeddings = GoogleGenerativeAIEmbeddings(
-        model=EMBEDDING_MODEL, location=GOOGLE_API_KEY
+        model=EMBEDDING_MODEL, location=GROQ_API_KEY
     )
 
     if os.path.exists(VECTORSTORE_PATH):
